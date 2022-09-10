@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url("../img/bg-tablet-pattern.svg");
   background-repeat: no-repeat;
